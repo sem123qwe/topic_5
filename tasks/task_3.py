@@ -5,6 +5,7 @@ find_len = len(numbers)
 
 find_sum = sum(numbers)
 
+# Лишние скобки, а также можно сразу написать без переменных
 calculation = (find_sum / find_len)
 
 result = round(calculation, 1)
