@@ -1,7 +1,7 @@
 days = ["Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"]
 
-request = int(input("Введите номер дня недели от 1 до 7: "))
+request = int(input("Введите номер дня недели от 1 до 7: "))  # запрашиваем у пользователя число
 
-operation = days[request - 1]
+operation = days[request - 1]  # это для того, чтобы days совпадали с request
 
-print(operation)
+print(operation)  # ввыводим результат

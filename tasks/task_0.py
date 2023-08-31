@@ -1,6 +1,5 @@
 colors: list = ["Red", "Green", "White", "Black", "Pink", "Yellow"]
 
-# Что если я добавлю/удалю элемент в/из списка?
-colors[0], colors[5] = colors[5], colors[0]
+colors["Red"], colors["Yellow"] = colors["Yellow"], colors["Red"]  # меняем цвета местами 
 
-print(colors)
+print(colors)  # ввывод

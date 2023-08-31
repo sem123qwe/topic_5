@@ -1,13 +1,7 @@
-numbers = [12, 45, 0.34711, 67, 89, 34, 55.632781, 78.9395]
+numbers: list = [12, 45, 0.34711, 67, 89, 34, 55.632781, 78.9395]
 
-# TODO: Пожалуйста, добавьте свой код ниже с комментариями и понятными названиями переменных.
-find_len = len(numbers)
+calculation: float = sum(numbers) / len(numbers)  # делаем расчеты
 
-find_sum = sum(numbers)
+result: float = round(calculation, 1)  # округляем результат расчетов
 
-# Лишние скобки, а также можно сразу написать без переменных
-calculation = (find_sum / find_len)
-
-result = round(calculation, 1)
-
-print('Среднее значение:', result)
+print('Среднее значение:', result)  # ввыводим результат

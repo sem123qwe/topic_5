@@ -4,7 +4,7 @@ student_info = {
     "group_number": "А101"
 }
 
-# Создайте множество, содержащее только ключи этого словаря
-keys_set = tuple(set(student_info))
 
-print(keys_set)
+keys_set = set(student_info)  # делаем множество
+
+print(keys_set)  # ввыводим результат
